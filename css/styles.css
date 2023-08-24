@@ -1,0 +1,349 @@
+div {
+    overflow: hidden;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Start CSS Navbar */
+.navbar-brand {
+    margin-top: 20px;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #000;
+}
+
+.btn-registrasi {
+    width: 81px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    padding: 8px, 12px, 8px, 12px;
+    background-color: #5CB85F;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+/* End CSS Navbar */
+
+/* Start CSS Header Hero */
+#header {
+    background-color: #F1F3FF;
+    height: 80vh;
+    width: 100%;
+}
+
+.tagline h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.tagline p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 20px;
+    width: 82%;
+}
+
+.btn-sewa {
+    width: 140px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    padding: 8px, 12px, 8px, 12px;
+    background-color: #5CB85F;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.img-bg-mobil {
+    margin-top: -240px;
+}
+
+.img-mobil {
+    margin-top: -400px;
+    width: 704px;
+    height: 407px;
+}
+/* End CSS Header Hero */
+
+/* Start CSS Our Services */
+.img-service {
+    width: 459px;
+    height: 428px;
+    margin-top: 120px;
+}
+
+.services h2{
+    width: 468px;
+    height: 72px; 
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 150px;
+}
+
+.services p {
+    width: 510px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.deskripsi {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+    margin-top: -5px;
+}
+
+.deskripsi li{
+    list-style: none;
+    text-align: start;
+    margin-left: -20px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.deskripsi li img{
+    list-style: none;
+    text-align: start;
+    margin-left: -25px;
+    padding: 10px;
+}
+/* End CSS Our Services */
+
+/* Start CSS Why Us */
+.why {
+    margin-top: 100px;
+}
+
+.why h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    width: 468px;
+    height: 36px;
+}
+
+.why p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 468px;
+    height: 20px;
+}
+
+.card-body {
+    width: 268px;
+    height: 196px;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 16px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 13px;
+}
+
+.card-text {
+    width: 220px;
+    height: 60px;    
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 13px;
+}
+/* End CSS Why Us */
+
+/* Start CSS Testimonial */
+#testimonial {
+    margin-top: 80px;
+}
+
+.testimonial-heading h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.testimonial-heading p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.item {
+    background-color: #F1F3FF;
+    margin-left: 20px;
+    border-radius: 8px;
+    height: 270px;
+    max-width: 619px;
+}
+
+.review {
+    width: 415px;
+    height: 132px;
+}
+
+.author-img {
+    max-width: 80px;
+    height: 80px;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.rate-img {
+    height: 16px;
+    max-width: 80px;
+    margin-top: 40px;
+}
+
+.text-review {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.review .author {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 10px;
+}
+/* End CSS Testimonial */
+
+/* Start CSS Sewa Mobil Sekarang */
+#sewa {
+    margin-top: 80px;
+    padding: 0%;
+}
+
+.sewa {
+    background-color: #0D28A6;
+    height: 326px;
+    border-radius: 13px;
+    text-align: center;
+}
+
+.sewa h1{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    padding-top: 90px;
+}
+
+.sewa-p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100px;
+    font-variant: normal;
+    color: #fff;
+}
+
+.sewa button{
+    margin-top: 40px;
+}
+/* End CSS Sewa Mobil Sekarang */
+
+/* Start CSS FAQ */
+.faq-container {
+    margin-top: 50px;
+}
+
+.faq {
+    margin-top: 20px;
+}
+
+.faq h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.faq p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 18px;
+}
+
+.accordion-item {
+    margin-top: 20px;
+}
+
+.accordion-header {
+    border: 1px solid #D4D4D4;
+}
+
+.accordion-button {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+/* End CSS FAQ*/
+
+/* Start CSS Footer*/
+.footer {
+    margin-top: 70px;
+}
+
+.address {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.navigation a {
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.sosmed {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+/* End CSS Footer*/
