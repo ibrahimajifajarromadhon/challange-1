@@ -1,20 +1,40 @@
-div {
-    overflow: hidden;
-  }
-
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
     color: #000;
 }
 
+div {
+    overflow: hidden;
+  }
+
 /* Start CSS Navbar */
 .navbar-brand {
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.offcanvas {
+    margin-top: 0px;
+    max-width: 50%;
+}
+
+.offcanvas-title {
+    padding: 2px;
+    font-weight: 600;
+}
+
+.offcanvas-body {
+    margin-top: none;
+    padding: 10px;
+}
+
+.navbar {
+    width: 20px;
 }
 
 .nav-link {
     font-size: 14px;
+    font-weight: 600;
     color: #000;
 }
 
@@ -27,7 +47,7 @@ body {
     background-color: #5CB85F;
     color: #fff;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
 }
 /* End CSS Navbar */
@@ -39,10 +59,15 @@ body {
     width: 100%;
 }
 
+.header {
+    margin-top: -130px;
+}
+
 .tagline h1{
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
+    margin-top: 250px;
 }
 
 .tagline p {
@@ -64,20 +89,52 @@ body {
     background-color: #5CB85F;
     color: #fff;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
 }
 
-.img-bg-mobil {
-    margin-top: -240px;
-}
-
-.img-mobil {
-    margin-top: -400px;
+.img-car {
     width: 704px;
     height: 407px;
+    margin-top: -270px;
+    position: absolute;
 }
 /* End CSS Header Hero */
+
+/* Start CSS Header Hero For Mobile */
+@media (max-width: 360px) { 
+    #header {
+        background-color: #F1F3FF;
+        height: 650px;
+        width: 100%;
+        margin-bottom: -50px;
+    }
+
+    .tagline h1{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        margin-top: 100px;
+    }
+    
+    .tagline p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        line-height: 20px;
+        width: 82%;
+    }
+
+    .img-car {
+        width: 344px;
+        height: 199px;
+        margin-top: -70px;
+        position: absolute;
+    }
+}
+/* End CSS Header Hero For Mobile */
 
 /* Start CSS Our Services */
 .img-service {
@@ -98,7 +155,7 @@ body {
 }
 
 .services p {
-    width: 510px;
+    width: 468px;
     height: 60px;
     font-size: 14px;
     font-weight: 300;
@@ -106,13 +163,7 @@ body {
     letter-spacing: 0em;
     text-align: left;
     margin-top: 20px;
-}
-
-.deskripsi {
-    width: 100%;
-    height: auto;
-    gap: 16px;
-    margin-top: -5px;
+    margin-bottom: 50px;
 }
 
 .deskripsi li{
@@ -121,40 +172,74 @@ body {
     margin-left: -20px;
     font-size: 14px;
     font-weight: 300;
-    line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
+    padding-bottom: 16px;
 }
 
 .deskripsi li img{
     list-style: none;
     text-align: start;
     margin-left: -25px;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 /* End CSS Our Services */
 
+/* Start CSS Our Services For Mobile */
+@media (max-width: 360px) { 
+    .img-service{
+        width: 252px;
+        height: 228px;
+        align-items: center;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    .services h2{
+        width: 328px;
+        height: 72px; 
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .services p {
+        height: 60px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+/* End CSS Our Services For Mobile */
+
 /* Start CSS Why Us */
 .why {
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 .why h2 {
     font-size: 24px;
     font-weight: 700;
     text-align: left;
-    width: 468px;
-    height: 36px;
+    margin-bottom: 20px;
 }
 
 .why p {
     font-size: 14px;
     font-weight: 300;
-    line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
-    width: 468px;
-    height: 20px;
+}
+
+.card {
+    margin-bottom: 16px;
 }
 
 .card-body {
@@ -163,7 +248,6 @@ body {
     padding: 24px;
     border-radius: 8px;
     border: 1px;
-    gap: 16px;
 }
 
 .card-title {
@@ -187,6 +271,22 @@ body {
 }
 /* End CSS Why Us */
 
+/* Start CSS Why Us For Mobile */
+@media (max-width: 360px) {
+    .why {
+        margin-top: 60px;
+    }
+
+    .why h2 {
+        text-align: center;
+    }
+    
+    .why p {
+        text-align: center;
+    }
+}
+/* End CSS Why Us For Mobile */
+
 /* Start CSS Testimonial */
 #testimonial {
     margin-top: 80px;
@@ -206,7 +306,7 @@ body {
 
 .item {
     background-color: #F1F3FF;
-    margin-left: 20px;
+    margin-left: none;
     border-radius: 8px;
     height: 270px;
     max-width: 619px;
@@ -214,7 +314,7 @@ body {
 
 .review {
     width: 415px;
-    height: 132px;
+    height: auto;
 }
 
 .author-img {
@@ -245,53 +345,101 @@ body {
 }
 /* End CSS Testimonial */
 
+/* Start CSS Testimonial For Mobile */
+@media (max-width: 360px) { 
+    #testimonial {
+        margin-top: 60px;
+    }
+
+    .item {
+        background-color: #F1F3FF;
+        border-radius: 8px;
+        height: 372px;
+        max-width: 1000px;
+    }
+    
+    .review {
+        width: 415px;
+        height: auto;
+    }
+    
+    .author-img {
+        max-width: 80px;
+        height: 80px;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    
+    .rate-img {
+        height: 16px;
+        max-width: 80px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    
+    .text-review {
+        font-size: 14px;
+        text-align: left;
+        width: 264px;
+        height: 148px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .review .author {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        margin-left: 20px;
+    }
+}
+/* End CSS Testimonial For Mobile */
+
 /* Start CSS Sewa Mobil Sekarang */
 #sewa {
     margin-top: 80px;
-    padding: 0%;
 }
 
 .sewa {
     background-color: #0D28A6;
-    height: 326px;
+    height: auto;
     border-radius: 13px;
     text-align: center;
+    padding: 70px;
+    color: #fff;
 }
 
 .sewa h1{
     font-size: 36px;
     font-weight: 700;
-    text-align: center;
-    color: #fff;
-    padding-top: 90px;
 }
 
-.sewa-p{
+.sewa p{
     padding-top: 20px;
-    text-align: center;
     font-size: 14px;
-    font-weight: 100px;
-    font-variant: normal;
-    color: #fff;
-}
-
-.sewa button{
-    margin-top: 40px;
+    font-weight: 300;
+    padding-bottom: 30px;
 }
 /* End CSS Sewa Mobil Sekarang */
 
-/* Start CSS FAQ */
-.faq-container {
-    margin-top: 50px;
+/* Start CSS Sewa Mobil Sekarang For Mobile */
+@media (max-width: 360px) { 
+    .sewa h1{
+        font-size: 24px;
+        font-weight: 700;
+    }
 }
+/* End CSS Sewa Mobil Sekarang For Mobile */
 
-.faq {
-    margin-top: 20px;
+/* Start CSS FAQ */
+#faq {
+    margin-top: 70px;
 }
 
 .faq h2 {
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 20px;
     text-align: left;
 }
 
@@ -299,11 +447,11 @@ body {
     font-size: 14px;
     font-weight: 300;
     text-align: left;
-    margin-top: 18px;
+    margin-bottom: 20px;
 }
 
-.accordion-item {
-    margin-top: 20px;
+.accordion{
+    margin-bottom: 20px;
 }
 
 .accordion-header {
@@ -317,33 +465,56 @@ body {
 }
 /* End CSS FAQ*/
 
+/* Start CSS FAQ For Mobile */
+@media (max-width: 360px) { 
+    .faq h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .faq p {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}   
+/* End CSS FAQ For Mobile */
+
 /* Start CSS Footer*/
-.footer {
-    margin-top: 70px;
+footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .address {
     font-size: 14px;
     font-weight: 300;
-    text-align: left;
+    margin-bottom: 5px;
 }
 
 .navigation a {
     padding-bottom: 15px;
     font-size: 14px;
     font-weight: 600;
-    text-align: left;
 }
 
 .sosmed {
     font-size: 14px;
     font-weight: 300;
-    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.sosmed img{
+    margin-right: 10px;
 }
 
 .copyright {
     font-size: 14px;
     font-weight: 300;
-    text-align: left;
 }
 /* End CSS Footer*/
