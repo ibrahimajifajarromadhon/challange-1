@@ -6,7 +6,7 @@ body {
 
 div {
     overflow: hidden;
-  }
+}
 
 /* Start CSS Navbar */
 .navbar-brand {
@@ -26,10 +26,7 @@ div {
 .offcanvas-body {
     margin-top: none;
     padding: 10px;
-}
-
-.navbar {
-    width: 20px;
+    margin-left: 85px;
 }
 
 .nav-link {
@@ -50,6 +47,15 @@ div {
     font-weight: 600;
     text-decoration: none;
 }
+
+@media (max-width: 360px) {
+    .offcanvas-body {
+        margin-top: none;
+        padding: 10px;
+        margin-left: 0px;
+    }
+}
+
 /* End CSS Navbar */
 
 /* Start CSS Header Hero */
@@ -207,14 +213,12 @@ div {
     }
 
     .services p {
-        height: 60px;
+        max-width: 100%;
         font-size: 14px;
         font-weight: 300;
-        line-height: 20px;
-        letter-spacing: 0em;
         text-align: left;
         margin-top: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 }
 /* End CSS Our Services For Mobile */
@@ -274,7 +278,7 @@ div {
 /* Start CSS Why Us For Mobile */
 @media (max-width: 360px) {
     .why {
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .why h2 {
